@@ -42,7 +42,7 @@ jobs:
           sed -i 's/XXX/成人频道/' Adult.m3u
           sed -i 's/AdultIPTV.net //g' Adult.m3u
           
-          wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
+          rm -f Adult.m3u && wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
           sed -i -n '/日本\|欧美/,+1p' AdultVideo.txt
           sed -i 's/日本/成人视频/g; s/欧美/成人视频/g' AdultVideo.txt
           sed -i '/https:\/\/\(t12\|t15\|t11\|t17\).cdn2020.com:[0-9]\+/{N;d;}' AdultVideo.txt
@@ -65,6 +65,12 @@ jobs:
           sed -i '/#EXTM3U/d' IPTV.m3u
           sed -i '1i #EXTM3U' IPTV.m3u
           sed -i '/^\s*$/d' IPTV.m3u
+          
+          echo -n > IPTV.txt
+          cat IPTV.m3u >> IPTV.txt
+          sed -i -n '/#EXTINF:-1/{N;s/#EXTINF:-1 tvg-id="\([^"]*\)" tvg-name="\([^"]*\)" tvg-logo="\([^"]*\)" group-title="\([^"]*\)",\([^"]*\)\n\([^"]*\)/\5,#genre#\n\2,\6/p}' IPTV.txt
+          sed -i 's#\(http://\|https://\)proxy\.ymoo\.buzz#http://150.138.77.122:64117#g' IPTV.txt
+          sed -i '/^\s*$/d' IPTV.txt
 
           rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
           echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md

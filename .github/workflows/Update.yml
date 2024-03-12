@@ -65,7 +65,6 @@ jobs:
           sed -i '/#EXTM3U/d' IPTV.m3u
           sed -i '1i #EXTM3U' IPTV.m3u
           sed -i '/^\s*$/d' IPTV.m3u
-          sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#http://150.138.77.122:64117/\1\2#g' IPTV.m3u
 
           rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
           echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md

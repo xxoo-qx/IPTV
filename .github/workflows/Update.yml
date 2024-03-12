@@ -68,8 +68,8 @@ jobs:
           
           echo -n > IPTV.txt
           cat IPTV.m3u >> IPTV.txt
-          sed -i -n '/#EXTINF:-1/{N;s/#EXTINF:-1 tvg-id="\([^"]*\)" tvg-name="\([^"]*\)" tvg-logo="\([^"]*\)" group-title="\([^"]*\)",\([^"]*\)\n\([^"]*\)/\5,#genre#\n\2,\6/p}' IPTV.txt
-          sed -i 's#\(http://\|https://\)proxy\.ymoo\.buzz#http://150.138.77.122:64117#g' IPTV.txt
+          sed -i -n '/#EXTINF:-1/{N;s/#EXTINF:-1 tvg-id="\([^"]*\)" tvg-name="\([^"]*\)".*group-title="\([^"]*\)".*\n\([^"]*\)/\3,#genre#\n\2,\4/p}' IPTV.txt
+          sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#http://150.138.77.122:64117/\1\2#g' IPTV.txt
           sed -i '/^\s*$/d' IPTV.txt
 
           rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml

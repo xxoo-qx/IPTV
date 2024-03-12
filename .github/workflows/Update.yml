@@ -42,7 +42,7 @@ jobs:
           sed -i 's/XXX/成人频道/' Adult.m3u
           sed -i 's/AdultIPTV.net //g' Adult.m3u
           
-          rm -f Adult.m3u && wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
+          wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
           sed -i -n '/日本\|欧美/,+1p' AdultVideo.txt
           sed -i 's/日本/成人视频/g; s/欧美/成人视频/g' AdultVideo.txt
           sed -i '/https:\/\/\(t12\|t15\|t11\|t17\).cdn2020.com:[0-9]\+/{N;d;}' AdultVideo.txt

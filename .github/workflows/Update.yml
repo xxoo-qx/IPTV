@@ -41,12 +41,14 @@ jobs:
           rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
           sed -i 's/XXX/成人频道/' Adult.m3u
           sed -i 's/AdultIPTV.net //g' Adult.m3u
+          
           wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
           sed -i -n '/日本/,+1p' AdultVideo.txt
           sed -i 's/日本/成人视频/' AdultVideo.txt
           echo '' >> Adult.m3u && cat AdultVideo.txt >> Adult.m3u
           rm -f AdultVideo.txt
           sed -i '/^\s*$/d' Adult.m3u
+          sed -i 's#\(http://\|https://\)#https://proxy.ymoo.buzz/#g' Adult.m3u
 
           rm -f IHOT.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O IHOT.m3u
           sed -i -n '/求索\|IHOT爱\+/,+1p' IHOT.m3u

@@ -51,6 +51,9 @@
 	<programme channel="4K综艺" start="20240313022900 +0800" stop="20240313040100 +0800">
 		<title lang="zh">亲爱的客栈第三季20191115</title>
 	</programme>
+	<programme channel="4K综艺" start="20240313040100 +0800" stop="20240313052300 +0800">
+		<title lang="zh">亲爱的客栈第三季20191122</title>
+	</programme>
 	<channel id="ABCAUSTRALIA">
 		<display-name lang="zh">ABCAUSTRALIA</display-name>
 	</channel>
@@ -26580,6 +26583,9 @@
 	<programme channel="华数探索纪录" start="20240313025600 +0800" stop="20240313034700 +0800">
 		<title lang="zh">动物兵工厂06</title>
 	</programme>
+	<programme channel="华数探索纪录" start="20240313034700 +0800" stop="20240313041800 +0800">
+		<title lang="zh">原味记忆:嘉兴传统小吃-嘉湖细点2</title>
+	</programme>
 	<channel id="华数欧美影院">
 		<display-name lang="zh">华数欧美影院</display-name>
 	</channel>
@@ -26649,6 +26655,9 @@
 	<programme channel="华数电子竞技" start="20240313031000 +0800" stop="20240313035400 +0800">
 		<title lang="zh">JJ斗地主冠军杯S3春季赛D组5-4</title>
 	</programme>
+	<programme channel="华数电子竞技" start="20240313035400 +0800" stop="20240313040100 +0800">
+		<title lang="zh">冬雪我的世界侏罗纪公园第二季_第39集</title>
+	</programme>
 	<channel id="华数精品剧场">
 		<display-name lang="zh">华数精品剧场</display-name>
 	</channel>
@@ -26685,6 +26694,9 @@
 	<programme channel="华数风尚音乐" start="20240313033000 +0800" stop="20240313034700 +0800">
 		<title lang="zh">2019春夏上海时装周11</title>
 	</programme>
+	<programme channel="华数风尚音乐" start="20240313034700 +0800" stop="20240313050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
+	</programme>
 	<channel id="华数高清娱乐">
 		<display-name lang="zh">华数高清娱乐</display-name>
 	</channel>
@@ -26699,6 +26711,9 @@
 	</programme>
 	<programme channel="华数高清娱乐" start="20240313025500 +0800" stop="20240313035700 +0800">
 		<title lang="zh">拳力以赴的我们_第1期下</title>
+	</programme>
+	<programme channel="华数高清娱乐" start="20240313035700 +0800" stop="20240313043900 +0800">
+		<title lang="zh">同一屋檐下第一季_第2期下篇</title>
 	</programme>
 	<channel id="华艺MBC">
 		<display-name lang="zh">华艺MBC</display-name>
@@ -55710,6 +55725,9 @@
 	<programme channel="爱体育" start="20240313011200 +0800" stop="20240313034800 +0800">
 		<title lang="zh">2021中国乒超联赛男团小组赛:汕头明润-上海地产</title>
 	</programme>
+	<programme channel="爱体育" start="20240313034800 +0800" stop="20240313050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
+	</programme>
 	<channel id="爱动漫">
 		<display-name lang="zh">爱动漫</display-name>
 	</channel>
@@ -55760,6 +55778,9 @@
 	</programme>
 	<programme channel="爱历史" start="20240313031200 +0800" stop="20240313035900 +0800">
 		<title lang="zh">御前四宝_29</title>
+	</programme>
+	<programme channel="爱历史" start="20240313035900 +0800" stop="20240313044700 +0800">
+		<title lang="zh">御前四宝_30</title>
 	</programme>
 	<channel id="爱喜剧">
 		<display-name lang="zh">爱喜剧</display-name>
@@ -56256,6 +56277,9 @@
 	<programme channel="爱旅行" start="20240313031000 +0800" stop="20240313035500 +0800">
 		<title lang="zh">春暖花又开_49</title>
 	</programme>
+	<programme channel="爱旅行" start="20240313035500 +0800" stop="20240313044000 +0800">
+		<title lang="zh">春暖花又开_50</title>
+	</programme>
 	<channel id="爱浪漫">
 		<display-name lang="zh">爱浪漫</display-name>
 	</channel>
@@ -56360,6 +56384,9 @@
 	</programme>
 	<programme channel="爱院线" start="20240313020300 +0800" stop="20240313035700 +0800">
 		<title lang="zh">移动迷宫</title>
+	</programme>
+	<programme channel="爱院线" start="20240313035700 +0800" stop="20240313050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
 	</programme>
 	<channel id="玉林公共">
 		<display-name lang="zh">玉林公共</display-name>
@@ -71745,6 +71772,9 @@
 	<programme channel="黑莓动画" start="20240313034000 +0800" stop="20240313035900 +0800">
 		<title lang="zh">04_全职法师第1季</title>
 	</programme>
+	<programme channel="黑莓动画" start="20240313035900 +0800" stop="20240313042200 +0800">
+		<title lang="zh">01_马达加斯加企鹅第二季</title>
+	</programme>
 	<channel id="黑莓电影">
 		<display-name lang="zh">黑莓电影</display-name>
 	</channel>
@@ -72993,6 +73023,9 @@
 	<programme channel="newtv超级电视剧" start="20240313034900 +0800" stop="20240313035300 +0800">
 		<title lang="zh">星推荐</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20240313035300 +0800" stop="20240313043500 +0800">
+		<title lang="zh">10_流金岁月</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -73032,6 +73065,9 @@
 	<programme channel="newtv精品纪录" start="20240313030300 +0800" stop="20240313034700 +0800">
 		<title lang="zh">甜蜜智慧</title>
 	</programme>
+	<programme channel="newtv精品纪录" start="20240313034700 +0800" stop="20240313043500 +0800">
+		<title lang="zh">05_休戚与共</title>
+	</programme>
 	<channel id="newtv古装剧场">
 		<display-name lang="zh">NEWTV古装剧场</display-name>
 	</channel>
@@ -73046,6 +73082,9 @@
 	</programme>
 	<programme channel="newtv古装剧场" start="20240313030100 +0800" stop="20240313034800 +0800">
 		<title lang="zh">20_三国机密之潜龙在渊</title>
+	</programme>
+	<programme channel="newtv古装剧场" start="20240313034800 +0800" stop="20240313043300 +0800">
+		<title lang="zh">21_三国机密之潜龙在渊</title>
 	</programme>
 	<channel id="newtv军旅剧场">
 		<display-name lang="zh">NEWTV军旅剧场</display-name>
@@ -73082,6 +73121,9 @@
 	</programme>
 	<programme channel="newtv家庭剧场" start="20240313031500 +0800" stop="20240313035500 +0800">
 		<title lang="zh">14_只想今生一起走</title>
+	</programme>
+	<programme channel="newtv家庭剧场" start="20240313035500 +0800" stop="20240313044000 +0800">
+		<title lang="zh">27_猫冬</title>
 	</programme>
 	<channel id="newtv热播精选">
 		<display-name lang="zh">NEWTV热播精选</display-name>
@@ -73200,6 +73242,9 @@
 	<programme channel="newtv炫舞未来" start="20240313033100 +0800" stop="20240313035000 +0800">
 		<title lang="zh">烟雨人间-毕刚（完整版）</title>
 	</programme>
+	<programme channel="newtv炫舞未来" start="20240313035500 +0800" stop="20240313041500 +0800">
+		<title lang="zh">宝贝对不起-毕刚（完整版）</title>
+	</programme>
 	<channel id="newtv精品综合">
 		<display-name lang="zh">NEWTV精品综合</display-name>
 	</channel>
@@ -73241,6 +73286,9 @@
 	</programme>
 	<programme channel="newtv精品体育" start="20240313020400 +0800" stop="20240313034600 +0800">
 		<title lang="zh">2023-24赛季英超联赛第20轮：富勒姆VS阿森纳</title>
+	</programme>
+	<programme channel="newtv精品体育" start="20240313034600 +0800" stop="20240313050600 +0800">
+		<title lang="zh">2023-24赛季意甲第23轮：国际米兰VS尤文图斯</title>
 	</programme>
 	<channel id="newtv武搏世界">
 		<display-name lang="zh">NEWTV武搏世界</display-name>

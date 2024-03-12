@@ -75,4 +75,4 @@ jobs:
           git commit -am "${{ steps.date.outputs.date }}"
 
       - name: Push
-        run: git push -f origin main
+        run: git push -f origin master

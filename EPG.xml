@@ -54114,6 +54114,9 @@
 	<programme channel="爱体育" start="20240314025000 +0800" stop="20240314044900 +0800">
 		<title lang="zh">U21欧青赛:西班牙-克罗地亚</title>
 	</programme>
+	<programme channel="爱体育" start="20240314044900 +0800" stop="20240314050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
+	</programme>
 	<channel id="爱动漫">
 		<display-name lang="zh">爱动漫</display-name>
 	</channel>
@@ -54635,6 +54638,9 @@
 	</programme>
 	<programme channel="爱幼教" start="20240314044000 +0800" stop="20240314045700 +0800">
 		<title lang="zh">虹猫蓝兔勇者归来_08</title>
+	</programme>
+	<programme channel="爱幼教" start="20240314045700 +0800" stop="20240314050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
 	</programme>
 	<channel id="爱悬疑">
 		<display-name lang="zh">爱悬疑</display-name>

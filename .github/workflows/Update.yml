@@ -22,11 +22,13 @@ jobs:
 
       - name: Update
         run: |
+          # 央视源
           rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
           sed -i -n '/央视频道/,+1p' CCTV.m3u
           sed -i '1i #EXTM3U' CCTV.m3u
           sed -i '/^\s*$/d' CCTV.m3u
 
+          # 卫视源
           rm -f CNTV.m3u && touch CNTV.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV1.m3u && sed -i -n '/卫视频道/,+1p' CNTV1.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV2.m3u && sed -i -n '/NewTV系列/,+1p' CNTV2.m3u
@@ -38,6 +40,7 @@ jobs:
           sed -i '1i #EXTM3U' CNTV.m3u
           sed -i '/^\s*$/d' CNTV.m3u
 
+          # 成人源
           rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
           sed -i 's/XXX/成人频道/' Adult.m3u
           sed -i 's/AdultIPTV.net //g' Adult.m3u
@@ -51,6 +54,7 @@ jobs:
           sed -i '/^\s*$/d' Adult.m3u
           sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#https://proxy.ymoo.buzz/\1\2#g' Adult.m3u
 
+          #iHOT源
           rm -f IHOT.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O IHOT.m3u
           sed -i -n '/求索\|IHOT爱\+/,+1p' IHOT.m3u
           sed -i '/iHOT爱怀旧\|iHOT爱经典\|iHOT爱娱乐\|iHOT爱江湖\|iHOT爱探索\|iHOT爱世界\|iHOT爱极限\|iHOT爱解密\|iHOT爱猎奇\|iHOT爱美食\|iHOT爱时尚\|iHOT爱家庭\|iHOT爱都市/,+1d' IHOT.m3u
@@ -58,6 +62,7 @@ jobs:
           sed -i '1i #EXTM3U' IHOT.m3u
           sed -i '/^\s*$/d' IHOT.m3u
 
+          # 整合源
           rm -f IPTV.m3u && touch IPTV.m3u
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u

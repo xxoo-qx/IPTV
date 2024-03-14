@@ -26220,6 +26220,9 @@
 	<programme channel="华数探索纪录" start="20240315032100 +0800" stop="20240315035100 +0800">
 		<title lang="zh">原味记忆:地道博山味儿</title>
 	</programme>
+	<programme channel="华数探索纪录" start="20240315035100 +0800" stop="20240315050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
+	</programme>
 	<channel id="华数欧美影院">
 		<display-name lang="zh">华数欧美影院</display-name>
 	</channel>
@@ -54687,6 +54690,9 @@
 	<programme channel="爱浪漫" start="20240315021300 +0800" stop="20240315035400 +0800">
 		<title lang="zh">王牌播音员2</title>
 	</programme>
+	<programme channel="爱浪漫" start="20240315035400 +0800" stop="20240315050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
+	</programme>
 	<channel id="爱玩具">
 		<display-name lang="zh">爱玩具</display-name>
 	</channel>
@@ -54731,6 +54737,9 @@
 	</programme>
 	<programme channel="爱科幻" start="20240315015400 +0800" stop="20240315034500 +0800">
 		<title lang="zh">雷神</title>
+	</programme>
+	<programme channel="爱科幻" start="20240315034500 +0800" stop="20240315050000 +0800">
+		<title lang="zh">实境之旅桂林</title>
 	</programme>
 	<channel id="爱谍战">
 		<display-name lang="zh">爱谍战</display-name>
@@ -70538,6 +70547,9 @@
 	</programme>
 	<programme channel="newtv超级体育" start="20240315023100 +0800" stop="20240315040000 +0800">
 		<title lang="zh">2023/2024赛季欧洲篮球联赛-第23轮(费内巴切-博洛尼亚)</title>
+	</programme>
+	<programme channel="newtv超级体育" start="20240315040000 +0800" stop="20240315060000 +0800">
+		<title lang="zh">2023年美国网球公开赛- 男单决赛</title>
 	</programme>
 	<channel id="newtv超级电影">
 		<display-name lang="zh">NEWTV超级电影</display-name>

@@ -22,6 +22,10 @@ jobs:
 
       - name: Update
         run: |
+          # 酒店源
+          rm -f itvlist.m3u && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.m3u -O itvlist.m3u
+          sed -i '/^\s*$/d' itvlist.m3u
+          
           # 央视源
           rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
           sed -i -n '/央视频道/,+1p' CCTV.m3u
@@ -64,6 +68,7 @@ jobs:
 
           # 整合源
           rm -f IPTV.m3u && touch IPTV.m3u
+          cat itvlist.m3u >> IPTV.m3u
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u
           cat IHOT.m3u >> IPTV.m3u

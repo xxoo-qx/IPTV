@@ -65,6 +65,10 @@ jobs:
           sed -i 's/\"浙江求索生活\"/\"求索生活\"/g' IHOT.m3u
           sed -i '1i #EXTM3U' IHOT.m3u
           sed -i '/^\s*$/d' IHOT.m3u
+          
+          #轮播源
+          wget https://raw.githubusercontent.com/xxoo-qx/IPTV/main/LIVE.m3u -O LIVE.m3u
+          sed -i '/^\s*$/d' LIVE.m3u
 
           # 整合源
           rm -f IPTV.m3u && touch IPTV.m3u
@@ -72,6 +76,7 @@ jobs:
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u
           cat IHOT.m3u >> IPTV.m3u
+          cat LIVE.m3u >> IPTV.m3u
           sed -i '/#EXTM3U/d' IPTV.m3u
           sed -i '1i #EXTM3U' IPTV.m3u
           sed -i '/^\s*$/d' IPTV.m3u

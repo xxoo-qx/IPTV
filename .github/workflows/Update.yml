@@ -82,19 +82,15 @@ jobs:
           sed -i '/^\s*$/d' IHOT.m3u
           
           #轮播源m3u
-          wget https://raw.githubusercontent.com/xxoo-qx/IPTV/main/LIVE.m3u -O LIVE.m3u
           sed -i '/^\s*$/d' LIVE.m3u
           
           #轮播源txt
-          wget https://raw.githubusercontent.com/xxoo-qx/IPTV/main/LIVE.txt -O LIVE.txt
           sed -i '/^\s*$/d' LIVE.txt
           
           #CCTVtxt
-          wget https://raw.githubusercontent.com/xxoo-qx/IPTV/main/CCTV.txt -O CCTV.txt
           sed -i '/^\s*$/d' CCTV.txt
           
           #MGDYtxt
-          wget https://raw.githubusercontent.com/xxoo-qx/IPTV/main/MGDY.txt -O MGDY.txt
           sed -i '/^\s*$/d' MGDY.txt
 
           # 整合源

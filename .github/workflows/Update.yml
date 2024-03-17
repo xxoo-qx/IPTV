@@ -5,6 +5,9 @@ on:
     types: [started]
   schedule:
     - cron: 0,30 * * * *
+  push:
+    branches:
+      - main
 
 env:
   TZ: Asia/Shanghai

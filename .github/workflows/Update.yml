@@ -36,6 +36,7 @@ jobs:
           # 央视源
           rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
           sed -i -n '/央视频道/,+1p' CCTV.m3u
+          sed -i 's/央视频道/央视/' CCTV.m3u
           sed -i '1i #EXTM3U' CCTV.m3u
           sed -i '/^\s*$/d' CCTV.m3u
 
@@ -43,11 +44,18 @@ jobs:
           rm -f CNTV.m3u && touch CNTV.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV1.m3u && sed -i -n '/卫视频道/,+1p' CNTV1.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV2.m3u && sed -i -n '/NewTV系列/,+1p' CNTV2.m3u
-          wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV3.m3u && sed -i -n '/超清频道/,+1p' CNTV3.m3u
+          wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV3.m3u && sed -i -n '/上海频道/,+1p' CNTV3.m3u
+          wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV4.m3u && sed -i -n '/浙江频道/,+1p' CNTV4.m3u
+          wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV5.m3u && sed -i -n '/陕西频道/,+1p' CNTV5.m3u
+          wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV6.m3u && sed -i -n '/求索系列/,+1p' CNTV6.m3u
           cat CNTV1.m3u >> CNTV.m3u
           cat CNTV2.m3u >> CNTV.m3u
           cat CNTV3.m3u >> CNTV.m3u
-          rm -f CNTV1.m3u CNTV2.m3u CNTV3.m3u
+          cat CNTV4.m3u >> CNTV.m3u
+          cat CNTV5.m3u >> CNTV.m3u
+          cat CNTV6.m3u >> CNTV.m3u
+          rm -f CNTV1.m3u CNTV2.m3u CNTV3.m3u CNTV4.m3u CNTV5.m3u CNTV6.m3u
+          sed -i 's/卫视频道/卫视/' CNTV.m3u
           sed -i '1i #EXTM3U' CNTV.m3u
           sed -i '/^\s*$/d' CNTV.m3u
 

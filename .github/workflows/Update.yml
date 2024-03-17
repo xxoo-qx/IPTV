@@ -4,7 +4,7 @@ on:
   watch:
     types: [started]
   schedule:
-    - cron: 0,30 * * * *
+    - cron: 0 9,21 * * *
   push:
     branches:
       - main
@@ -97,8 +97,8 @@ jobs:
           cat IHOT.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
           cat CCTV.txt >> IPTV.txt
-          cat MGDY.txt >> IPTV.txt
-          cat LIVE.txt >> IPTV.txt
+          echo '' >> IPTV.txt && cat MGDY.txt >> IPTV.txt
+          echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt
           sed -i '/#EXTM3U/d' IPTV.m3u
           sed -i '1i #EXTM3U' IPTV.m3u
           sed -i '/^\s*$/d' IPTV.m3u

@@ -60,9 +60,9 @@ jobs:
           sed -i '/^\s*$/d' CNTV.m3u
 
           # 成人源
-          rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
-          sed -i 's/XXX/成人频道/' Adult.m3u
-          sed -i 's/AdultIPTV.net //g' Adult.m3u
+          #rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
+          #sed -i 's/XXX/成人频道/' Adult.m3u
+          #sed -i 's/AdultIPTV.net //g' Adult.m3u
           
           wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
           sed -i -n '/日本\|欧美/,+1p' AdultVideo.txt

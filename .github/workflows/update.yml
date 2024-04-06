@@ -107,7 +107,7 @@ jobs:
           sed -i '1i #EXTM3U' IPTV.m3u
           sed -i '/^\s*$/d' IPTV.m3u
 
-          rm -f EPG.xml && wget https://epg.112114.xyz/pp.xml -O EPG.xml
+          rm -f EPG.xml && wget https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml -O EPG.xml
           echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
 
       - name: Clean

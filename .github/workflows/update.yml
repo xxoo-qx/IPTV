@@ -92,8 +92,9 @@ jobs:
           # 整合源
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u
-          cat IPTVYS.m3u >> IPTV.m3u
-          cat IPTVWS.m3u >> IPTV.m3u
+          cat IPTVYS.m3u >> IPTVV6.m3u
+          cat IPTVWS.m3u >> IPTVV6.m3u
+          cat IPTVV6.m3u >> IPTV.m3u
           cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
           cat MGDY.txt >> IPTV.txt

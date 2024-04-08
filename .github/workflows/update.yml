@@ -83,6 +83,9 @@ jobs:
           #轮播源txt
           sed -i '/^\s*$/d' LIVE.txt
           
+          #MGDYm3u
+          sed -i '/^\s*$/d' MGDY.m3u
+          
           #MGDYtxt
           sed -i '/^\s*$/d' MGDY.txt
 

@@ -26,9 +26,9 @@ jobs:
       - name: update
         run: |
           # 酒店源m3u
-          rm -f itvlist.m3u && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.m3u -O itvlist.m3u
-          sed -i 's/其他频道/地方频道/' itvlist.m3u
-          sed -i '/^\s*$/d' itvlist.m3u
+          rm -f IPTV.m3u && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.m3u -O IPTV.m3u
+          sed -i 's/其他频道/地方频道/' IPTV.m3u
+          sed -i '/^\s*$/d' IPTV.m3u
           
           # 酒店源txt
           rm -f itvlist.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.txt -O IPTV.txt
@@ -65,18 +65,18 @@ jobs:
           sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#https://proxy.ymoo.buzz/\1\2#g' Adult.m3u
 
           #IPTV6央视源
-          rm -f iptvys.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O iptvys.m3u
-          sed -i -n '/央视IPV6/,+1p' iptvys.m3u
-          sed -i 's/央视IPV6/央视频道IPV6/' iptvys.m3u
-          sed -i '1i #EXTM3U' iptvys.m3u
-          sed -i '/^\s*$/d' iptvys.m3u
+          rm -f IPTVYS.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O IPTVYS.m3u
+          sed -i -n '/央视IPV6/,+1p' IPTVYS.m3u
+          sed -i 's/央视IPV6/央视频道IPV6/' IPTVYS.m3u
+          sed -i '1i #EXTM3U' IPTVYS.m3u
+          sed -i '/^\s*$/d' IPTVYS.m3u
           
           #IPTV6卫视源
-          rm -f iptvws.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O iptvws.m3u
-          sed -i -n '/卫视IPV6/,+1p' iptvws.m3u
-          sed -i 's/卫视IPV6/卫视频道IPV6/' iptvws.m3u
-          sed -i '1i #EXTM3U' iptvws.m3u
-          sed -i '/^\s*$/d' iptvws.m3u
+          rm -f IPTVWS.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O IPTVWS.m3u
+          sed -i -n '/卫视IPV6/,+1p' IPTVWS.m3u
+          sed -i 's/卫视IPV6/卫视频道IPV6/' IPTVWS.m3u
+          sed -i '1i #EXTM3U' IPTVWS.m3u
+          sed -i '/^\s*$/d' IPTVWS.m3u
           
           #轮播源m3u
           sed -i '/^\s*$/d' LIVE.m3u
@@ -88,12 +88,10 @@ jobs:
           sed -i '/^\s*$/d' MGDY.txt
 
           # 整合源
-          rm -f IPTV.m3u && touch IPTV.m3u
-          cat itvlist.m3u >> IPTV.m3u
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u
-          cat iptvys.m3u >> IPTV.m3u
-          cat iptvws.m3u >> IPTV.m3u
+          cat IPTVYS.m3u >> IPTV.m3u
+          cat IPTVWS.m3u >> IPTV.m3u
           cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
           cat MGDY.txt >> IPTV.txt

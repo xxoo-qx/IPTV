@@ -13,7 +13,7 @@ env:
   TZ: Asia/Shanghai
 
 jobs:
-  Update:
+  update:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -23,14 +23,16 @@ jobs:
         id: date
         run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
 
-      - name: Update
+      - name: update
         run: |
           # 酒店源m3u
           rm -f itvlist.m3u && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.m3u -O itvlist.m3u
+          sed -i 's/其他频道/地方频道/' itvlist.m3u
           sed -i '/^\s*$/d' itvlist.m3u
           
           # 酒店源txt
           rm -f itvlist.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.txt -O IPTV.txt
+          sed -i 's/其他频道/地方频道/' IPTV.txt
           sed -i '/^\s*$/d' IPTV.txt
           
           # 央视源
@@ -101,7 +103,7 @@ jobs:
           sed -i '/^\s*$/d' IPTV.m3u
 
           rm -f EPG.xml && wget https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml -O EPG.xml
-          echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
+          echo "Auto update IPTV in ${{ steps.date.outputs.date }}" > README.md
 
       - name: Clean
         run: |

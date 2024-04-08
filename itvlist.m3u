@@ -269,93 +269,93 @@ http://115.171.86.251:9901/tsfile/live/16059_1.m3u8?key=txiptv&playlive=1&authid
 http://121.19.134.48:808/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 #EXTINF:-1 group-title="卫视频道",青海卫视
 http://111.225.112.123:808/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",CETV1
+#EXTINF:-1 group-title="地方频道",CETV1
 http://121.19.134.190:808/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",CETV2
+#EXTINF:-1 group-title="地方频道",CETV2
 http://121.19.134.48:808/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",4K电源
+#EXTINF:-1 group-title="地方频道",4K电源
 http://115.171.86.251:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",BTV休闲体育
+#EXTINF:-1 group-title="地方频道",BTV休闲体育
 http://115.171.86.251:9901/tsfile/live/16034_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",BTV影视
+#EXTINF:-1 group-title="地方频道",BTV影视
 http://115.171.86.251:9901/tsfile/live/16029_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",BTV文艺
+#EXTINF:-1 group-title="地方频道",BTV文艺
 http://115.171.86.251:9901/tsfile/live/16028_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",BTV新闻
+#EXTINF:-1 group-title="地方频道",BTV新闻
 http://115.171.86.251:9901/tsfile/live/16027_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",BTV生活
+#EXTINF:-1 group-title="地方频道",BTV生活
 http://115.171.86.251:9901/tsfile/live/16031_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",上海电视剧
+#EXTINF:-1 group-title="地方频道",上海电视剧
 http://61.170.164.195:9901/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",上海艺术人生
+#EXTINF:-1 group-title="地方频道",上海艺术人生
 http://61.170.164.195:9901/tsfile/live/1004_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",东方购物
+#EXTINF:-1 group-title="地方频道",东方购物
 http://61.170.164.195:9901/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",中国交通
+#EXTINF:-1 group-title="地方频道",中国交通
 http://121.19.134.190:808/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",中国交通
+#EXTINF:-1 group-title="地方频道",中国交通
 http://121.19.134.48:808/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定公共
+#EXTINF:-1 group-title="地方频道",保定公共
 http://121.19.134.48:808/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定公共
+#EXTINF:-1 group-title="地方频道",保定公共
 http://111.225.112.123:808/tsfile/live/1007_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定公共
+#EXTINF:-1 group-title="地方频道",保定公共
 http://121.19.134.190:808/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定新闻综合
+#EXTINF:-1 group-title="地方频道",保定新闻综合
 http://111.225.112.123:808/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定生活健康
+#EXTINF:-1 group-title="地方频道",保定生活健康
 http://121.19.134.190:808/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定生活健康
+#EXTINF:-1 group-title="地方频道",保定生活健康
 http://121.19.134.48:808/tsfile/live/1009_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",保定生活健康
+#EXTINF:-1 group-title="地方频道",保定生活健康
 http://111.225.112.123:808/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",山东教育
+#EXTINF:-1 group-title="地方频道",山东教育
 http://111.225.112.123:808/tsfile/live/1030_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",山东教育
+#EXTINF:-1 group-title="地方频道",山东教育
 http://121.19.134.190:808/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",广东体育
+#EXTINF:-1 group-title="地方频道",广东体育
 http://116.21.123.204:4433/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北农民
+#EXTINF:-1 group-title="地方频道",河北农民
 http://121.19.134.190:808/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北农民
+#EXTINF:-1 group-title="地方频道",河北农民
 http://121.19.134.48:808/tsfile/live/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北少儿科教
+#EXTINF:-1 group-title="地方频道",河北少儿科教
 http://111.225.112.123:808/tsfile/live/1002_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北少儿科教
+#EXTINF:-1 group-title="地方频道",河北少儿科教
 http://121.19.134.190:808/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北少儿科教
+#EXTINF:-1 group-title="地方频道",河北少儿科教
 http://121.19.134.48:808/tsfile/live/1003_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北影视剧
+#EXTINF:-1 group-title="地方频道",河北影视剧
 http://111.225.112.123:808/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北杂技
+#EXTINF:-1 group-title="地方频道",河北杂技
 http://121.19.134.48:808/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北经济生活
+#EXTINF:-1 group-title="地方频道",河北经济生活
 http://121.19.134.190:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北都市
+#EXTINF:-1 group-title="地方频道",河北都市
 http://121.19.134.48:808/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北都市
+#EXTINF:-1 group-title="地方频道",河北都市
 http://121.19.134.190:808/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",河北都市
+#EXTINF:-1 group-title="地方频道",河北都市
 http://111.225.112.123:808/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",淘电影
+#EXTINF:-1 group-title="地方频道",淘电影
 http://115.171.86.251:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",炫动卡通
+#EXTINF:-1 group-title="地方频道",炫动卡通
 http://61.170.164.195:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",石家庄生活
+#EXTINF:-1 group-title="地方频道",石家庄生活
 http://123.183.24.83:6666/tsfile/live/faacts/1005_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",第一财经
+#EXTINF:-1 group-title="地方频道",第一财经
 http://61.170.164.195:9901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",纪实人文
+#EXTINF:-1 group-title="地方频道",纪实人文
 http://111.225.112.123:808/tsfile/live/1033_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",衡水综合
+#EXTINF:-1 group-title="地方频道",衡水综合
 http://121.19.134.48:808/tsfile/live/1041_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",邯郸新闻综合
+#EXTINF:-1 group-title="地方频道",邯郸新闻综合
 http://121.19.134.48:808/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",金鹰卡通
+#EXTINF:-1 group-title="地方频道",金鹰卡通
 http://121.19.134.190:808/tsfile/live/1032_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",金鹰卡通
+#EXTINF:-1 group-title="地方频道",金鹰卡通
 http://121.19.134.48:808/tsfile/live/1027_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",金鹰卡通
+#EXTINF:-1 group-title="地方频道",金鹰卡通
 http://111.225.112.123:808/tsfile/live/1031_1.m3u8?key=txiptv&playlive=1&authid=0
-#EXTINF:-1 group-title="其他频道",金鹰纪实
+#EXTINF:-1 group-title="地方频道",金鹰纪实
 http://121.19.134.190:808/tsfile/live/1037_1.m3u8?key=txiptv&playlive=1&authid=0

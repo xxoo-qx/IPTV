@@ -135,7 +135,7 @@ CCTV风云音乐,http://121.19.134.48:808/tsfile/live/1036_1.m3u8?key=txiptv&pla
 陕西卫视,http://115.171.86.251:9901/tsfile/live/16059_1.m3u8?key=txiptv&playlive=1&authid=0
 青海卫视,http://121.19.134.48:808/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
 青海卫视,http://111.225.112.123:808/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0
-其他频道,#genre#
+地方频道,#genre#
 CETV1,http://121.19.134.190:808/tsfile/live/1035_1.m3u8?key=txiptv&playlive=1&authid=0
 CETV2,http://121.19.134.48:808/tsfile/live/1029_1.m3u8?key=txiptv&playlive=1&authid=0
 4K电源,http://115.171.86.251:9901/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0

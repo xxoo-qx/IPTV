@@ -92,6 +92,7 @@ jobs:
           cat CNTV.m3u >> IPTV.m3u
           cat iptvys.m3u >> IPTV.m3u
           cat iptvws.m3u >> IPTV.m3u
+          cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
           cat MGDY.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt

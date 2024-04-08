@@ -36,6 +36,7 @@ jobs:
           # 央视源
           rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
           sed -i -n '/央视ʰ/,+1p' CCTV.m3u
+          sed -i 's/央视ʰ/央视频道/' CCTV.m3u
           sed -i '1i #EXTM3U' CCTV.m3u
           sed -i '/^\s*$/d' CCTV.m3u
 
@@ -43,6 +44,7 @@ jobs:
           rm -f CNTV.m3u && touch CNTV.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV.m3u
           sed -i -n '/卫视ʰ/,+1p' CNTV.m3u
+          sed -i 's/卫视ʰ/卫视频道/' 
           sed -i '1i #EXTM3U' CNTV.m3u
           sed -i '/^\s*$/d' CNTV.m3u
 
@@ -63,14 +65,14 @@ jobs:
           #IPTV6央视源
           rm -f iptvys.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O iptvys.m3u
           sed -i -n '/央视IPV6/,+1p' iptvys.m3u
-          sed -i 's/央视IPV6/央视/' iptvys.m3u
+          sed -i 's/央视IPV6/央视频道IPV6/' iptvys.m3u
           sed -i '1i #EXTM3U' iptvys.m3u
           sed -i '/^\s*$/d' iptvys.m3u
           
           #IPTV6卫视源
           rm -f iptvws.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O iptvws.m3u
           sed -i -n '/卫视IPV6/,+1p' iptvws.m3u
-          sed -i 's/卫视IPV6/卫视/' iptvws.m3u
+          sed -i 's/卫视IPV6/卫视频道IPV6/' iptvws.m3u
           sed -i '1i #EXTM3U' iptvws.m3u
           sed -i '/^\s*$/d' iptvws.m3u
           
@@ -91,7 +93,7 @@ jobs:
           cat iptvys.m3u >> IPTV.m3u
           cat iptvws.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
-          echo '' >> IPTV.txt && cat MGDY.txt >> IPTV.txt
+          cat MGDY.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt
           sed -i '/#EXTM3U/d' IPTV.m3u
           sed -i '1i #EXTM3U' IPTV.m3u

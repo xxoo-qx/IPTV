@@ -43,7 +43,6 @@ jobs:
           rm -f CNTV.m3u && touch CNTV.m3u
           wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV.m3u
           sed -i -n '/卫视ʰ/,+1p' CNTV.m3u
-          cat CNTV.m3u >> CNTV.m3u
           sed -i '1i #EXTM3U' CNTV.m3u
           sed -i '/^\s*$/d' CNTV.m3u
 

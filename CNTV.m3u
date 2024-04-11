@@ -1,0 +1,47 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="北京卫视频道" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视",北京卫视
+https://pi.0472.org/live/bjws.m3u8?token=240411
+#EXTINF:-1 tvg-id="东方卫视频道" tvg-name="东方卫视" tvg-logo="https://live.fanmingming.com/tv/东方卫视.png" group-title="卫视",东方卫视
+https://pi.0472.org/live/dfws.m3u8?token=240411
+#EXTINF:-1 tvg-id="天津卫视频道" tvg-name="天津卫视" tvg-logo="https://live.fanmingming.com/tv/天津卫视.png" group-title="卫视",天津卫视
+https://pi.0472.org/live/tjws.m3u8?token=240411
+#EXTINF:-1 tvg-id="重庆卫视频道" tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="卫视",重庆卫视
+https://pi.0472.org/live/cqws.m3u8?token=240411
+#EXTINF:-1 tvg-id="黑龙江卫视频道" tvg-name="黑龙江卫视" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视.png" group-title="卫视",黑龙江卫视
+https://pi.0472.org/live/hljws.m3u8?token=240411
+#EXTINF:-1 tvg-id="辽宁卫视频道" tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png" group-title="卫视",辽宁卫视
+https://pi.0472.org/live/lnws.m3u8?token=240411
+#EXTINF:-1 tvg-id="河北卫视频道" tvg-name="河北卫视" tvg-logo="https://live.fanmingming.com/tv/河北卫视.png" group-title="卫视",河北卫视
+https://pi.0472.org/live/hbws.m3u8?token=240411
+#EXTINF:-1 tvg-id="山东卫视频道" tvg-name="山东卫视" tvg-logo="https://live.fanmingming.com/tv/山东卫视.png" group-title="卫视",山东卫视
+https://pi.0472.org/live/sdws.m3u8?token=240411
+#EXTINF:-1 tvg-id="安徽卫视频道" tvg-name="安徽卫视" tvg-logo="https://live.fanmingming.com/tv/安徽卫视.png" group-title="卫视",安徽卫视
+https://pi.0472.org/live/ahws.m3u8?token=240411
+#EXTINF:-1 tvg-id="河南卫视频道" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视",河南卫视
+https://pi.0472.org/live/hnws.m3u8?token=240411
+#EXTINF:-1 tvg-id="湖北卫视频道" tvg-name="湖北卫视" tvg-logo="https://live.fanmingming.com/tv/湖北卫视.png" group-title="卫视",湖北卫视
+https://pi.0472.org/live/hubws.m3u8?token=240411
+#EXTINF:-1 tvg-id="湖南卫视频道" tvg-name="湖南卫视" tvg-logo="https://live.fanmingming.com/tv/湖南卫视.png" group-title="卫视",湖南卫视
+https://pi.0472.org/live/hunws.m3u8?token=240411
+#EXTINF:-1 tvg-id="江西卫视频道" tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png" group-title="卫视",江西卫视
+https://pi.0472.org/live/jxws.m3u8?token=240411
+#EXTINF:-1 tvg-id="江苏卫视频道" tvg-name="江苏卫视" tvg-logo="https://live.fanmingming.com/tv/江苏卫视.png" group-title="卫视",江苏卫视
+https://pi.0472.org/live/jsws.m3u8?token=240411
+#EXTINF:-1 tvg-id="浙江卫视频道" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视",浙江卫视
+https://pi.0472.org/live/zjws.m3u8?token=240411
+#EXTINF:-1 tvg-id="东南卫视频道" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="卫视",东南卫视
+https://pi.0472.org/live/dnws.m3u8?token=240411
+#EXTINF:-1 tvg-id="广东卫视频道" tvg-name="广东卫视" tvg-logo="https://live.fanmingming.com/tv/广东卫视.png" group-title="卫视",广东卫视
+https://pi.0472.org/live/gdws.m3u8?token=240411
+#EXTINF:-1 tvg-id="深圳卫视频道" tvg-name="深圳卫视" tvg-logo="https://live.fanmingming.com/tv/深圳卫视.png" group-title="卫视",深圳卫视
+https://pi.0472.org/live/szws.m3u8?token=240411
+#EXTINF:-1 tvg-id="广西卫视频道" tvg-name="广西卫视" tvg-logo="https://live.fanmingming.com/tv/广西卫视.png" group-title="卫视",广西卫视
+https://pi.0472.org/live/gxws.m3u8?token=240411
+#EXTINF:-1 tvg-id="贵州卫视频道" tvg-name="贵州卫视" tvg-logo="https://live.fanmingming.com/tv/贵州卫视.png" group-title="卫视",贵州卫视
+https://pi.0472.org/live/gzws.m3u8?token=240411
+#EXTINF:-1 tvg-id="四川卫视频道" tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="卫视",四川卫视
+https://pi.0472.org/live/scws.m3u8?token=240411
+#EXTINF:-1 tvg-id="新疆卫视频道" tvg-name="新疆卫视" tvg-logo="https://live.fanmingming.com/tv/新疆卫视.png" group-title="卫视",新疆卫视
+https://pi.0472.org/live/xjws.m3u8?token=240411
+#EXTINF:-1 tvg-id="海南卫视频道" tvg-name="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" group-title="卫视",海南卫视
+https://pi.0472.org/live/hinws.m3u8?token=240411

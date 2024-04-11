@@ -90,7 +90,7 @@ jobs:
           sed -i '/^\s*$/d' MGDY.txt
 
           # 整合源
-          rm -f IPTVV6.m3u && touch IPTVV6.m3u
+          # rm -f IPTVV6.m3u && touch IPTVV6.m3u
           cat CCTV.m3u >> IPTV.m3u
           cat CNTV.m3u >> IPTV.m3u
           # cat CCTVV6.m3u >> IPTVV6.m3u

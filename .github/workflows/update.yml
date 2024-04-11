@@ -61,7 +61,7 @@ jobs:
           echo '' >> Adult.m3u && cat AdultVideo.txt >> Adult.m3u
           rm -f AdultVideo.txt
           sed -i '/^\s*$/d' Adult.m3u
-          sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#https://proxy.ymoo.buzz/\1\2#g' Adult.m3u
+          sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#https://proxy.ymoo.buzz/\2#g' Adult.m3u
 
           # IPTV6央视源
           # rm -f CCTVV6.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O CCTVV6.m3u

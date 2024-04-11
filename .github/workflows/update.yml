@@ -37,15 +37,15 @@ jobs:
           
           # 央视源
           rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
-          sed -i -n '/央视ʰ/,+1p' CCTV.m3u
-          sed -i 's/央视ʰ/央视频道/' CCTV.m3u
+          sed -i -n '/央视/,+1p' CCTV.m3u
+          sed -i 's/央视/央视频道/' CCTV.m3u
           sed -i '1i #EXTM3U' CCTV.m3u
           sed -i '/^\s*$/d' CCTV.m3u
 
           # 卫视源
           rm -f CNTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV.m3u
-          sed -i -n '/卫视ʰ/,+1p' CNTV.m3u
-          sed -i 's/卫视ʰ/卫视频道/' CNTV.m3u
+          sed -i -n '/卫视/,+1p' CNTV.m3u
+          sed -i 's/卫视/卫视频道/' CNTV.m3u
           sed -i '1i #EXTM3U' CNTV.m3u
           sed -i '/^\s*$/d' CNTV.m3u
 

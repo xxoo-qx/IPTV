@@ -50,9 +50,9 @@ jobs:
           sed -i '/^\s*$/d' CNTV.m3u
 
           # 成人源
-          rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
-          sed -i 's/XXX/成人频道/' Adult.m3u
-          sed -i 's/AdultIPTV.net //g' Adult.m3u
+          # rm -f Adult.m3u && wget http://adultiptv.net/chs.m3u -O Adult.m3u
+          # sed -i 's/XXX/成人频道/' Adult.m3u
+          # sed -i 's/AdultIPTV.net //g' Adult.m3u
           
           wget https://raw.githubusercontent.com/YanG-1989/m3u/main/Adult.m3u -O AdultVideo.txt
           sed -i -n '/日本\|欧美/,+1p' AdultVideo.txt
@@ -63,30 +63,30 @@ jobs:
           sed -i '/^\s*$/d' Adult.m3u
           sed -i 's#\(http://\|https://\)\(.*m3u8.*\)#https://proxy.ymoo.buzz/\1\2#g' Adult.m3u
 
-          #IPTV6央视源
+          # IPTV6央视源
           # rm -f CCTVV6.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O CCTVV6.m3u
           # sed -i -n '/央视IPV6/,+1p' CCTVV6.m3u
           # sed -i 's/央视IPV6/央视频道IPV6/' CCTVV6.m3u
           # sed -i '1i #EXTM3U' CCTVV6.m3u
           # sed -i '/^\s*$/d' CCTVV6.m3u
           
-          #IPTV6卫视源
+          # IPTV6卫视源
           # rm -f CNTVV6.m3u && wget https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u -O CNTVV6.m3u
           # sed -i -n '/卫视IPV6/,+1p' CNTVV6.m3u
           # sed -i 's/卫视IPV6/卫视频道IPV6/' CNTVV6.m3u
           # sed -i '1i #EXTM3U' CNTVV6.m3u
           # sed -i '/^\s*$/d' CNTVV6.m3u
           
-          #轮播源m3u
+          # 轮播源m3u
           sed -i '/^\s*$/d' LIVE.m3u
           
-          #轮播源txt
+          # 轮播源txt
           sed -i '/^\s*$/d' LIVE.txt
           
-          #MGDYm3u
+          # MGDYm3u
           sed -i '/^\s*$/d' MGDY.m3u
           
-          #MGDYtxt
+          # MGDYtxt
           sed -i '/^\s*$/d' MGDY.txt
 
           # 整合源
@@ -95,6 +95,8 @@ jobs:
           cat CNTV.m3u >> IPTV.m3u
           # cat CCTVV6.m3u >> IPTVV6.m3u
           # cat CNTVV6.m3u >> IPTVV6.m3u
+
+          # 本地源
           cat IPTVV6.m3u >> IPTV.m3u
           cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u

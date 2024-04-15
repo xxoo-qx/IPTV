@@ -8,6 +8,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:  # 添加手动触发事件
 
 env:
   TZ: Asia/Shanghai

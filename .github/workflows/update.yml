@@ -1,8 +1,6 @@
 name: Update
 
 on:
-  watch:
-    types: [started]
   schedule:
     - cron: 0 11,23 * * *
   push:

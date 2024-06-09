@@ -46,10 +46,6 @@ jobs:
           # MGDYtxt
           sed -i '/^\s*$/d' MGDY.txt
 
-          # 整合源
-          # cat CCTV.m3u >> IPTV.m3u
-          # cat CNTV.m3u >> IPTV.m3u
-
           # 本地源
           cat IPTVV6.m3u >> IPTV.m3u
           cat MGDY.m3u >> IPTV.m3u

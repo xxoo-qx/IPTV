@@ -34,6 +34,11 @@ jobs:
           sed -i 's/其他频道/地方频道/' IPTV.txt
           sed -i '/^\s*$/d' IPTV.txt
           
+          # 酒店源txt
+          rm -f itv.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itv.txt
+          sed -i 's/其他频道/地方频道/' itv.txt
+          sed -i '/^\s*$/d' itv.txt
+          
           # 轮播源m3u
           sed -i '/^\s*$/d' LIVE.m3u
           
@@ -50,6 +55,7 @@ jobs:
           cat IPTVV6.m3u >> IPTV.m3u
           cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
+          cat itv.txt >> IPTV.txt
           cat IPTVV6.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat MGDY.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt

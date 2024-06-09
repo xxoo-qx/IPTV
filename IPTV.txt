@@ -163,7 +163,7 @@ CCTV17,http://36.40.236.76:9999/tsfile/live/0016_1.m3u8?key=txiptv&playlive=0&au
 都市剧场,http://115.236.83.222:1111/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
 金鹰卡通,http://123.154.30.252:9901/tsfile/live/1000_1.m3u8?key=txiptv&playlive=0&authid=0
 钱江,http://123.154.30.252:9901/tsfile/live/1003_1.m3u8?key=txiptv&playlive=0&authid=0
-央视频道,#genre#
+央视,#genre#
 CCTV1,http://120.211.119.222:8899/hls/1/index.m3u8
 CCTV1,http://120.211.119.222:8899/hls/69/index.m3u8
 CCTV1,http://120.7.86.47:808/hls/1/index.m3u8
@@ -240,7 +240,7 @@ CCTV9,http://120.7.86.47:808/hls/9/index.m3u8
 CCTV9,http://121.24.99.112:8090/hls/17/index.m3u8
 CCTV9,http://121.29.191.163:8000/hls/9/index.m3u8
 CCTV中学生,http://121.24.99.112:8090/hls/24/index.m3u8
-卫视频道,#genre#
+卫视,#genre#
 东南卫视,http://120.211.119.222:8899/hls/34/index.m3u8
 东南卫视,http://120.7.86.47:808/hls/32/index.m3u8
 东南卫视,http://121.24.99.112:8090/hls/36/index.m3u8
@@ -377,7 +377,7 @@ CCTV中学生,http://121.24.99.112:8090/hls/24/index.m3u8
 黑龙江卫视,http://121.24.99.112:8090/hls/42/index.m3u8
 黑龙江卫视,http://121.29.191.163:8000/hls/25/index.m3u8
 黑龙江卫视.,http://120.211.119.222:8899/hls/95/index.m3u8
-地方频道,#genre#
+地方,#genre#
 1,http://101.18.25.153:808
 1,http://110.241.190.171:808
 1,http://120.7.86.4:808

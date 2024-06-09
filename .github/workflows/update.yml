@@ -34,18 +34,6 @@ jobs:
           sed -i 's/其他频道/地方频道/' IPTV.txt
           sed -i '/^\s*$/d' IPTV.txt
           
-          # # 央视源
-          # rm -f CCTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CCTV.m3u
-          # sed -i -n '/央视频道/,+1p' CCTV.m3u
-          # sed -i '1i #EXTM3U' CCTV.m3u
-          # sed -i '/^\s*$/d' CCTV.m3u
-
-          # 卫视源
-          # rm -f CNTV.m3u && wget https://raw.githubusercontent.com/fanmingming/live/main/tv/m3u/ipv6.m3u -O CNTV.m3u
-          # sed -i -n '/卫视频道/,+1p' CNTV.m3u
-          # sed -i '1i #EXTM3U' CNTV.m3u
-          # sed -i '/^\s*$/d' CNTV.m3u
-          
           # 轮播源m3u
           sed -i '/^\s*$/d' LIVE.m3u
           

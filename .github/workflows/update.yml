@@ -59,6 +59,7 @@ jobs:
           cat LIVE.m3u >> IPTV.m3u
           cat itv.txt >> IPTV.txt
           # cat IPTVV6.txt >> IPTV.txt
+          echo '' >> IPTV.txt && cat itv.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat MGDY.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt
           sed -i '/#EXTM3U/d' IPTV.m3u

@@ -1,0 +1,79 @@
+name: Update
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # 添加手动触发事件
+
+env:
+  TZ: Asia/Shanghai
+
+jobs:
+  Update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: GetTime
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y-%m-%d %H:%M:%S CST')"
+
+      - name: Update
+        run: |
+          # 酒店源m3u
+          rm -f IPTV.m3u && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.m3u -O IPTV.m3u
+          sed -i 's/其他频道/地方频道/' IPTV.m3u
+          sed -i '/^\s*$/d' IPTV.m3u
+          
+          # 酒店源txt
+          # rm -f IPTV.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.txt -O IPTV.txt
+          # sed -i 's/其他频道/地方频道/' IPTV.txt
+          # sed -i '/^\s*$/d' IPTV.txt
+          
+          # 酒店源txt
+          rm -f itv.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itv.txt -O IPTV.txt
+          sed -i 's/央视频道/央视/' IPTV.txt
+          sed -i 's/卫视频道/卫视/' IPTV.txt
+          sed -i 's/其他频道/地方/' IPTV.txt
+          sed -i '/^\s*$/d' IPTV.txt
+          
+          # 轮播源m3u
+          sed -i '/^\s*$/d' LIVE.m3u
+          
+          # 轮播源txt
+          sed -i '/^\s*$/d' LIVE.txt
+          
+          # MGDYm3u
+          sed -i '/^\s*$/d' MGDY.m3u
+          
+          # MGDYtxt
+          sed -i '/^\s*$/d' MGDY.txt
+
+          # 本地源
+          # cat IPTVV6.m3u >> IPTV.m3u
+          cat MGDY.m3u >> IPTV.m3u
+          cat LIVE.m3u >> IPTV.m3u
+          # cat IPTVV6.txt >> IPTV.txt
+          # echo '' >> IPTV.txt && cat itv.txt >> IPTV.txt
+          cat MGDY.txt >> IPTV.txt
+          echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt
+          sed -i '/#EXTM3U/d' IPTV.m3u
+          sed -i '1i #EXTM3U' IPTV.m3u
+          sed -i '/^\s*$/d' IPTV.m3u
+
+          rm -f EPG.xml && wget https://raw.githubusercontent.com/sparkssssssssss/epg/main/pp.xml -O EPG.xml
+          echo "Auto Update IPTV in ${{ steps.date.outputs.date }}" > README.md
+
+      - name: Clean
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -am "${{ steps.date.outputs.date }}"
+
+      - name: Push
+        run: git push -f origin main

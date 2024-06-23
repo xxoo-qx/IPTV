@@ -30,16 +30,16 @@ jobs:
           sed -i '/^\s*$/d' IPTV.m3u
           
           # 酒店源txt
-          rm -f IPTV.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.txt -O IPTV.txt
-          sed -i 's/其他频道/地方频道/' IPTV.txt
-          sed -i '/^\s*$/d' IPTV.txt
+          # rm -f IPTV.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itvlist.txt -O IPTV.txt
+          # sed -i 's/其他频道/地方频道/' IPTV.txt
+          # sed -i '/^\s*$/d' IPTV.txt
           
           # 酒店源txt
-          rm -f itv.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itv.txt
-          sed -i 's/央视频道/央视/' itv.txt
-          sed -i 's/卫视频道/卫视/' itv.txt
-          sed -i 's/其他频道/地方/' itv.txt
-          sed -i '/^\s*$/d' itv.txt
+          rm -f itv.txt && wget https://raw.githubusercontent.com/xxoo-qx/tv/main/itv.txt -O IPTV.txt
+          sed -i 's/央视频道/央视/' IPTV.txt
+          sed -i 's/卫视频道/卫视/' IPTV.txt
+          sed -i 's/其他频道/地方/' IPTV.txt
+          sed -i '/^\s*$/d' IPTV.txt
           
           # 轮播源m3u
           sed -i '/^\s*$/d' LIVE.m3u
@@ -58,7 +58,7 @@ jobs:
           cat MGDY.m3u >> IPTV.m3u
           cat LIVE.m3u >> IPTV.m3u
           # cat IPTVV6.txt >> IPTV.txt
-          echo '' >> IPTV.txt && cat itv.txt >> IPTV.txt
+          # echo '' >> IPTV.txt && cat itv.txt >> IPTV.txt
           cat MGDY.txt >> IPTV.txt
           echo '' >> IPTV.txt && cat LIVE.txt >> IPTV.txt
           sed -i '/#EXTM3U/d' IPTV.m3u

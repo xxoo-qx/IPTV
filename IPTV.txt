@@ -43,7 +43,7 @@
 石家庄生活,http://27.185.1.27:8092/hls/22/index.m3u8
 石家庄都市,http://120.7.85.155:8088/hls/101/index.m3u8
 石家庄都市,http://27.185.1.27:8092/hls/21/index.m3u8
-央视,#genre#
+央视频道,#genre#
 CCTV1+,http://27.185.1.27:8092/hls/1/index.m3u8
 CCTV1,http://101.75.215.98:8008/hls/1/index.m3u8
 CCTV1,http://110.241.189.232:808/hls/1/index.m3u8
@@ -180,7 +180,7 @@ CCTV9,http://120.7.86.32:808/hls/9/index.m3u8
 CCTV9,http://121.24.99.107:8090/hls/17/index.m3u8
 CCTV9,http://61.182.33.218:8000/hls/9/index.m3u8
 CCTV中学生,http://121.24.99.107:8090/hls/24/index.m3u8
-卫视,#genre#
+卫视频道,#genre#
 东南卫视,http://101.75.215.98:8008/hls/34/index.m3u8
 东南卫视,http://110.241.189.232:808/hls/34/index.m3u8
 东南卫视,http://120.211.119.222:809/hls/64/index.m3u8
@@ -401,7 +401,7 @@ CCTV中学生,http://121.24.99.107:8090/hls/24/index.m3u8
 黑龙江卫视,http://121.24.99.107:8090/hls/42/index.m3u8
 黑龙江卫视,http://27.185.1.27:8092/hls/31/index.m3u8
 黑龙江卫视,http://61.182.33.218:8000/hls/25/index.m3u8
-地方,#genre#
+地方频道,#genre#
 1,http://101.18.30.210:808
 1,http://110.241.191.216:808
 1,http://110.241.191.50:808
